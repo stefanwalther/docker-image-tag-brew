@@ -1,9 +1,9 @@
 class Myproject < Formula
   desc "CLI tool to search for tags in Docker images (using Docker Registry v2)."
   homepage "https://github.com/stefanwalther/"
-  url "https://github.com/stefanwalther/docker-image-tag/releases/download/v0.1.6/docker-image-tag_0.1.6_Darwin_x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "0.1.6"
-  sha256 "bd8745dcd9e3d1c0ff66bf4821f4a39cad209469f7e2992aa5392962f090c518"
+  url "https://github.com/stefanwalther/docker-image-tag/releases/download/v0.1.1-brew/docker-image-tag_0.1.1-brew_Darwin_x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  version "0.1.1-brew"
+  sha256 "ef798cd7a6a6016ae5e84389bc9370ea818c0f3de896f4a7ad2b8b51a4213802"
 
   def install
     bin.install "docker-image-tag"
